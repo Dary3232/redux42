@@ -4,8 +4,3 @@ export const fetchCount = (amount = 1) => {
   );
 };
 
-export const fetchDecrement = (amount) => {
-  return new Promise((resolve) =>
-    setTimeout(() => resolve({ data: amount }), 1000)
-  );
-};
